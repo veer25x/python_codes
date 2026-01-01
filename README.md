@@ -1,2 +1,3 @@
-# js-code
+# python-codes
+
 A Code repo of js 
