@@ -1,3 +1,3 @@
 # python-codes
 
-A Code repo of js 
+A Code repo of python
