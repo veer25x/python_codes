@@ -1,0 +1,41 @@
+import array   # ← This line was missing
+
+# Create an integer array
+arr = array.array('i', [10, 20, 30, 40, 50])
+
+print("Original array:", arr)
+
+# 1. Access elements
+print("First element:", arr[0])
+print("Last element:", arr[-1])
+
+# 2. Append an element
+arr.append(60)
+print("After append:", arr)
+
+# 3. Insert at a specific position
+arr.insert(2, 25)
+print("After insert at index 2:", arr)
+
+# 4. Remove an element by value
+try:
+    arr.remove(40)
+    print("After removing 40:", arr)
+except ValueError:
+    print("Value not found in array.")
+
+# 5. Pop element by index
+if len(arr) > 0:
+    popped = arr.pop(1)
+    print(f"After popping index 1 ({popped}):", arr)
+
+# 6. Update element
+if len(arr) > 0:
+    arr[0] = 5
+    print("After updating first element:", arr)
+
+# 7. Traversing the array
+print("Traversing array:")
+for item in arr:
+    print(item, end=" ")
+print()
