@@ -1,0 +1,58 @@
+# String Manipulation in Python
+
+# 1. Creating a string
+text = "Hello Veer, Welcome to Python Programming"
+
+print("Original String:", text)
+
+# 2. Length of string
+print("Length of string:", len(text))
+
+# 3. Convert to uppercase
+print("Uppercase:", text.upper())
+
+# 4. Convert to lowercase
+print("Lowercase:", text.lower())
+
+# 5. Capitalize first letter
+print("Capitalized:", text.capitalize())
+
+# 6. Replace a word
+new_text = text.replace("Python", "Java")
+print("After replace:", new_text)
+
+# 7. Check if word exists
+print("Contains 'Veer':", "Veer" in text)
+
+# 8. Find position of a word
+print("Position of 'Welcome':", text.find("Welcome"))
+
+# 9. Slice string
+print("First 5 characters:", text[0:5])
+print("Last 10 characters:", text[-10:])
+
+# 10. Concatenation
+str1 = "Machine"
+str2 = "Learning"
+result = str1 + " " + str2
+print("Concatenated string:", result)
+
+# 11. Split string
+words = text.split(" ")
+print("Split into words:", words)
+
+# 12. Join string
+joined = "-".join(words)
+print("Joined with hyphen:", joined)
+
+# 13. Remove extra spaces
+space_text = "   Python   "
+print("Before strip:", space_text)
+print("After strip:", space_text.strip())
+
+# 14. Count occurrences
+print("Count of 'o':", text.count("o"))
+
+# 15. Reverse string
+reverse = text[::-1]
+print("Reversed string:", reverse)
