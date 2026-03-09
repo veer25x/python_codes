@@ -1,4 +1,4 @@
-import array   # ← This line was missing
+import array   
 
 # Create an integer array
 arr = array.array('i', [10, 20, 30, 40, 50])
