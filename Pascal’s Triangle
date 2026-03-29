@@ -8,6 +8,7 @@ for i in range(n):
         num = num * (i - j) // (j + 1)
 
     print()
+
 #Output
       1
      1 1
