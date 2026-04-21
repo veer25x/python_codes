@@ -1,0 +1,21 @@
+# Creating dictionaries
+person = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
+
+# Accessing values
+print(person["name"])       # John
+print(person.get("email", "Not found"))  # Not found
+
+# Dictionary operations
+person["email"] = "john@example.com"  # Add new key-value
+person["age"] = 31                    # Update value
+
+# Looping through dictionary
+for key, value in person.items():
+    print(f"{key}: {value}")
+
+# Dictionary comprehension
+squares_dict = {x: x**2 for x in range(5)}  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
