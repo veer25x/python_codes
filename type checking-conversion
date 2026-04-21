@@ -1,0 +1,13 @@
+# Variables and Data Types
+name = "John"           # String
+age = 25                # Integer
+height = 5.9            # Float
+is_student = True       # Boolean
+
+# Type checking
+print(type(name))       # <class 'str'>
+print(type(age))        # <class 'int'>
+
+# Type conversion
+age_str = str(age)      # "25"
+height_int = int(height) # 5
