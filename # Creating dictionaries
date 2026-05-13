@@ -4,7 +4,6 @@ person = {
     "age": 30,
     "city": "New York"
 }
-
 # Accessing values
 print(person["name"])       # John
 print(person.get("email", "Not found"))  # Not found
