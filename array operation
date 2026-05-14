@@ -32,7 +32,6 @@ if len(arr) > 0:
 if len(arr) > 0:
     arr[0] = 5
     print("After updating first element:", arr)
-
 # 7. Traversing the array
 print("Traversing array:")
 for item in arr:
