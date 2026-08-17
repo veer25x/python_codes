@@ -1,0 +1,22 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# 1. Dataset
+data = {
+    'Student': ['Aarav', 'Ananya', 'Rohan', 'Priya', 'Vikram'],
+    'Math': [88, 92, 75, 95, 82],
+    'Physics': [85, 89, 78, 91, 80],
+    'Chemistry': [90, 94, 70, 88, 85],
+    'CS': [95, 98, 82, 96, 90]
+}
+
+df = pd.DataFrame(data)
+
+# 2. Graph
+df.plot(x='Student', kind='bar', figsize=(8, 5))
+plt.title('Student Marks in Subjects')
+plt.ylabel('Marks')
+plt.ylim(0, 100)
+plt.legend(bbox_to_anchor=(1, 1))
+plt.tight_layout()
+plt.show()
