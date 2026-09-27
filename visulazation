@@ -12,6 +12,7 @@ data = {
 
 df = pd.DataFrame(data)
 
+
 # 2. Graph
 df.plot(x='Student', kind='bar', figsize=(8, 5))
 plt.title('Student Marks in Subjects')
