@@ -38,4 +38,3 @@ print("Traversing array:")
 for item in arr:
     print(item, end=" ")
 print()
-
